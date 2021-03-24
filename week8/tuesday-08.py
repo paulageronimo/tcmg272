@@ -76,10 +76,10 @@ if (average >= 70):
         print("I passed.")
 else:
     print("I failed.")
-    if (average >= 70):
+if (average >= 70):
         if (average > 100):
             print("I am a genius.")
         print("I passed.")
-    else:
+else:
         print("I failed.")
 
